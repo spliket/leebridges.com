@@ -68,7 +68,23 @@ h3 {
   padding: 0px;
   margin: 0px;
   color: WhiteSmoke;
-  text-align: center;
+  text-align: left;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  padding: 0px;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: WhiteSmoke;
+  text-align: left;
+}
+
+a {
+  color: WhiteSmoke;
 }
 
 #writeup-contact {
@@ -228,7 +244,11 @@ h4 {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 600px) {
-#wrapper {
+h3 {
+  text-align: center;
+}
+
+  #wrapper {
     width: 100%;
     padding: 0px;
   }
