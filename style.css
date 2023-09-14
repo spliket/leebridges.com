@@ -143,6 +143,8 @@ h4 {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .period h3 {
@@ -182,12 +184,40 @@ h4 {
   -moz-box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.25);
 }
 
-#news {
+.news {
   display: flex;
   height: auto;
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.year {
+  height: auto;
+  width: auto;
+}
+
+.year-label {
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.spacer {
+  flex: 1;
+  height: 1px;
+  margin: 30px 40px 30px 40px;
+  background-color: #dedede;
+}
+
+.year-label h3 {
+  color: #6a11cb;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 .new-thing h3 {
