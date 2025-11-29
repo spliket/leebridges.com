@@ -1,3 +1,3 @@
 # leebridges.com
 Personal Website
-Copyright Lee Bridges 2023
+Copyright Lee Bridges 2026
